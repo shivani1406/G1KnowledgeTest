@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BDgSx/bxZ+W/26l2s80jkVNKI5jqirU+FBpusEn1AGhsa6Y1OfKX+aETmD9pzCC64oCzqDefAHCRtGHVdKMBMg==",
+  "dgSpecHash": "VJhiLl3RtGh18fSiw66Ghk9ebW5fe5qjN+LgwXalDEDuim6Rz3ztJrc8oRnnCUV8Fz/WdHn1rp6aVKr+SULUHQ==",
   "success": true,
-  "projectFilePath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest\\G1KnowledgeTest.csproj",
+  "projectFilePath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest\\G1KnowledgeTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\14169\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\14169\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

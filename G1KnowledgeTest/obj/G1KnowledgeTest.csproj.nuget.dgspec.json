@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest\\G1KnowledgeTest.csproj": {}
+    "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest\\G1KnowledgeTest.csproj": {}
   },
   "projects": {
-    "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\G1KnowledgeTest.DataAccess.csproj": {
+    "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\G1KnowledgeTest.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\G1KnowledgeTest.DataAccess.csproj",
+        "projectUniqueName": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\G1KnowledgeTest.DataAccess.csproj",
         "projectName": "G1KnowledgeTest.DataAccess",
-        "projectPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\G1KnowledgeTest.DataAccess.csproj",
+        "projectPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\G1KnowledgeTest.DataAccess.csproj",
         "packagesPath": "C:\\Users\\14169\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\obj\\",
+        "outputPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\14169\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj": {
-                "projectPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj"
+              "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj": {
+                "projectPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj": {
+    "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj",
+        "projectUniqueName": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj",
         "projectName": "G1KnowledgeTest.Models",
-        "projectPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj",
+        "projectPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj",
         "packagesPath": "C:\\Users\\14169\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Models\\obj\\",
+        "outputPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\14169\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -144,14 +144,14 @@
         }
       }
     },
-    "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\G1KnowledgeTest.Utility.csproj": {
+    "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\G1KnowledgeTest.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\G1KnowledgeTest.Utility.csproj",
+        "projectUniqueName": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\G1KnowledgeTest.Utility.csproj",
         "projectName": "G1KnowledgeTest.Utility",
-        "projectPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\G1KnowledgeTest.Utility.csproj",
+        "projectPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\G1KnowledgeTest.Utility.csproj",
         "packagesPath": "C:\\Users\\14169\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\obj\\",
+        "outputPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\14169\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -205,14 +205,14 @@
         }
       }
     },
-    "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest\\G1KnowledgeTest.csproj": {
+    "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest\\G1KnowledgeTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest\\G1KnowledgeTest.csproj",
+        "projectUniqueName": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest\\G1KnowledgeTest.csproj",
         "projectName": "G1KnowledgeTest",
-        "projectPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest\\G1KnowledgeTest.csproj",
+        "projectPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest\\G1KnowledgeTest.csproj",
         "packagesPath": "C:\\Users\\14169\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest\\obj\\",
+        "outputPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\14169\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -228,14 +228,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\G1KnowledgeTest.DataAccess.csproj": {
-                "projectPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\G1KnowledgeTest.DataAccess.csproj"
+              "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\G1KnowledgeTest.DataAccess.csproj": {
+                "projectPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.DataAccess\\G1KnowledgeTest.DataAccess.csproj"
               },
-              "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj": {
-                "projectPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj"
+              "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj": {
+                "projectPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Models\\G1KnowledgeTest.Models.csproj"
               },
-              "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\G1KnowledgeTest.Utility.csproj": {
-                "projectPath": "D:\\ASP.NET Core ppt\\ASP.NET Core Project\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\G1KnowledgeTest.Utility.csproj"
+              "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\G1KnowledgeTest.Utility.csproj": {
+                "projectPath": "D:\\ASP.NETCoreppt\\ASP.NETCoreProject\\G1KnowledgeTest\\G1KnowledgeTest.Utility\\G1KnowledgeTest.Utility.csproj"
               }
             }
           }
