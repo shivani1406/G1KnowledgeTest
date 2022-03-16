@@ -1,0 +1,160 @@
+﻿@model G1KnowledgeTest.Models.ViewModel.QuestionVM
+
+
+@{
+    var title = "Create Question";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="Upsert" enctype="multipart/form-data">
+
+    <div class="row px-2 mx-2 backgroundWhite border">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @if (Model.Questions.id != 0)
+        {
+            <input type="hidden" asp-for="Questions.id" />
+            title = "Edit Question";
+        }
+
+        <div class="col-12">
+            <h2 class="text-primary">@title</h2>
+            <br />
+        </div>
+        <div class="col-9">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Questions.Question"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Questions.Question" class="form-control" />
+                    <span asp-validation-for="Questions.Question" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Questions.Option1"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Questions.Option1" id="txtOption1" class="form-control" />
+                    <span asp-validation-for="Questions.Option1" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Questions.Option2"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Questions.Option2" id="txtOption2" class="form-control" />
+                    <span asp-validation-for="Questions.Option2" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Questions.Option3"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Questions.Option3" id="txtOption3" class="form-control" />
+                    <span asp-validation-for="Questions.Option3" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Questions.Option4"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Questions.Option4" id="txtOption4" class="form-control" />
+                    <span asp-validation-for="Questions.Option4" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Questions.Answer"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Questions.Answer" class="form-control" id="txtAnswer">
+                    <span asp-validation-for="Questions.Answer" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Questions.Picture"></label>
+                </div>
+                <div class="col-8">
+                    <input type="file" id="projectImage" name="files" multiple class="form-control" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Questions.Remark"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Questions.Remark" class="form-control" id="txtRemark">
+                    <span asp-validation-for="Questions.Remark" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Questions.CategoryId"></label>
+                </div>
+                <div class="col-8">
+                    @Html.DropDownListFor(m => m.Questions.CategoryId, Model.CategoryList,
+                                            "- Please select a Category-", new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-8 offset-4">
+                    @if (Model.Questions.id != 0)
+                    {
+                        //Edit button and back to list
+                        <partial name="_EditAndBackToListButton" model="Model.Questions.id" />
+                    }
+                    else
+                    {
+                        <div class="row">
+                            <div class="col">
+                                <button type="submit" onclick="return validateInput()" class="btn btn-primary form-control">Create</button>
+                            </div>
+                            <div class="col">
+                                <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        @if (Model.Questions.id != 0)
+        {
+    <div class="col-3">
+        @{
+            var base64 = Convert.ToBase64String(Model.Questions.Picture);
+            var imgSrc = string.Format("data:image/jpg;base64,{0}", base64);
+        }
+        <img src="@imgSrc" class="img-thumbnail" />
+    </div>
+        }
+    </div>
+
+</form>
+
+@section Scripts{
+    <script src="https://cdn.tiny.cloud/1/n94ifuzvl80pchikopiwgz2esrw8n28dwcywvpejlqrregfp/tinymce/5/tinymce.min.js"></script>
+    <script>
+    tinymce.init({
+        selector: 'textarea',
+        plugins: 'lists',
+        menubar: 'file edit format'
+    });
+    function validateInput() {
+        if (document.getElementById("uploadBox").value == "") {
+            swal("Error", "Please Select an Image", "error")
+            return false;
+        }
+        return true;
+            };
+    $(document).ready(function () {
+        if (document.getElementById('txtAnswer').value == "0") {
+            document.getElementById('txtAnswer').value = '';
+        }
+    });
+    </script>
+}

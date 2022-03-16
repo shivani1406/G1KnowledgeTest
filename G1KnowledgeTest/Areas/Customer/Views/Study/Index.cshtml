@@ -1,0 +1,84 @@
+﻿@model G1KnowledgeTest.Models.ViewModel.StudyModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form method="post">
+    @if (Model.QuestionsList.Count() > 0)
+    {
+        <br />
+        <div class="backgroundWhite container">
+            <div class="card">
+                <div class="card-header bg-dark text-light ml-0 row container">
+                    <div class="col-12 d-none d-md-block col-md-6 pb-1">
+                        @*<i class="fas fa-shopping-cart"></i>*@
+                        &nbsp; Questions & Solutions
+                    </div>
+                    @*<div class="col-12 col-md-4 offset-md-2 text-right">
+                        <a asp-action="Index" asp-controller="Home" asp-area="Customer" class="btn btn-outline-info form-control btn-sm">Questions & Solutions</a>
+                    </div>*@
+                </div>
+                <div class="card-body">
+                    @*@{
+                        var orderTotal = 0.0;
+                    }*@
+
+                    @foreach (var item in Model.QuestionsList)
+                    {
+                        //orderTotal += (item.Price * item.Frequency.FrequencyCount);
+                        <div class="row">
+                            <div class="d-none d-md-block col-md-2 text-center py-2">
+                                @{
+                                    var base64 = Convert.ToBase64String(item.Picture);
+                                    var imgSrc = string.Format("data:image/jpg;base64,{0}", base64);
+                                }
+                                <img src="@imgSrc" class="rounded" width="100%" />
+                            </div>
+                            <div class="col-12 col-md-5 text-md-left pt-3">
+                                <h5><strong class="text-primary">@item.Question</strong></h5>
+                                <h5 class="text-secondary">1. @item.Option1</h5>
+                                <h5 class="text-secondary">2. @item.Option2</h5>
+                                <h5 class="text-secondary">3. @item.Option3</h5>
+                                <h5 class="text-secondary">4. @item.Option4</h5>
+
+                            </div>
+                            <div class="col-12 col-md-5 row pt-3">
+                                <div class="col-6 text-md-right" style="padding-top:5px;">
+                                   @* <h6><strong class="text-danger">@((item.Price * item.Frequency.FrequencyCount).ToString("c"))</strong></h6>*@
+                                </div>
+                                <div class="col-6 text-right"> <strong class="text-primary"> Answer </strong> <h5 class="text-secondary">
+                                  @if (@item.Answer == 1)
+                                  {@item.Option1}
+                                  else if (@item.Answer == 2)
+                                  { @item.Option2}
+                                  else if (@item.Answer == 3)
+                                  {@item.Option3 }
+                                  else
+                                  {@item.Option4}
+                                  </h5>
+                                 </div>
+                            </div>
+                        </div>
+                        <hr />
+                    }
+
+                    @*<div class="row">
+                        <div class="col-12 text-right pr-4">
+                            <p class="text-success h5">Total (USD): &nbsp;&nbsp; $@orderTotal</p>
+                        </div>
+                    </div>*@
+                </div>
+                @*<div class="card-footer">
+                    <div class="col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8 text-right">
+                        <a asp-action="Summary" asp-area="Customer" asp-controller="Cart" class="btn btn-success form-control">Summary</a>
+                    </div>
+                </div>*@
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="backgroundWhite"> No questions answers avaliable...</div>
+    }
+</form>
+

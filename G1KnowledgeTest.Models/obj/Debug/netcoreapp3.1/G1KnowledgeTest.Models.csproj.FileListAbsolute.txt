@@ -1,0 +1,9 @@
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Models\bin\Debug\netcoreapp3.1\G1KnowledgeTest.Models.deps.json
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Models\bin\Debug\netcoreapp3.1\G1KnowledgeTest.Models.dll
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Models\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Models.csprojAssemblyReference.cache
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Models\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Models.AssemblyInfoInputs.cache
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Models\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Models.AssemblyInfo.cs
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Models\bin\Debug\netcoreapp3.1\G1KnowledgeTest.Models.pdb
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Models\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Models.csproj.CoreCompileInputs.cache
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Models\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Models.dll
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Models\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Models.pdb

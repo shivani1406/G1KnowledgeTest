@@ -1,0 +1,9 @@
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Utility\bin\Debug\netcoreapp3.1\G1KnowledgeTest.Utility.deps.json
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Utility\bin\Debug\netcoreapp3.1\G1KnowledgeTest.Utility.dll
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Utility\bin\Debug\netcoreapp3.1\G1KnowledgeTest.Utility.pdb
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Utility\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Utility.csprojAssemblyReference.cache
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Utility\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Utility.AssemblyInfoInputs.cache
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Utility\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Utility.AssemblyInfo.cs
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Utility\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Utility.dll
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Utility\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Utility.pdb
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.Utility\obj\Debug\netcoreapp3.1\G1KnowledgeTest.Utility.csproj.CoreCompileInputs.cache

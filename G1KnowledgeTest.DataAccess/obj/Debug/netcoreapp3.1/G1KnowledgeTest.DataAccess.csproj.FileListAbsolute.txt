@@ -1,0 +1,12 @@
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\bin\Debug\netcoreapp3.1\G1KnowledgeTest.DataAccess.deps.json
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\bin\Debug\netcoreapp3.1\G1KnowledgeTest.DataAccess.dll
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\obj\Debug\netcoreapp3.1\G1KnowledgeTest.DataAccess.csprojAssemblyReference.cache
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\obj\Debug\netcoreapp3.1\G1KnowledgeTest.DataAccess.AssemblyInfoInputs.cache
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\obj\Debug\netcoreapp3.1\G1KnowledgeTest.DataAccess.AssemblyInfo.cs
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\bin\Debug\netcoreapp3.1\G1KnowledgeTest.DataAccess.pdb
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\obj\Debug\netcoreapp3.1\G1KnowledgeTest.DataAccess.csproj.CoreCompileInputs.cache
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\obj\Debug\netcoreapp3.1\G1KnowledgeTest.DataAccess.dll
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\obj\Debug\netcoreapp3.1\G1KnowledgeTest.DataAccess.pdb
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\bin\Debug\netcoreapp3.1\G1KnowledgeTest.Models.dll
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\bin\Debug\netcoreapp3.1\G1KnowledgeTest.Models.pdb
+D:\ASP.NET Core ppt\ASP.NET Core Project\G1KnowledgeTest\G1KnowledgeTest.DataAccess\obj\Debug\netcoreapp3.1\G1KnowledgeTest.DataAccess.csproj.CopyComplete

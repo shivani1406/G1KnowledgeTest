@@ -1,0 +1,131 @@
+﻿@model G1KnowledgeTest.Models.ViewModel.StudyModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{ var count = 0;}
+@{ var correct = 0;}
+@*<form method="post">
+    @if(Model.QuestionsList.Count() > 0)
+    {*@
+<br />
+
+@foreach (var item in Model.QuestionsList)
+{
+
+<table class="table">
+   
+    <tr>
+        <td>
+            @{
+                var base64 = Convert.ToBase64String(item.Picture);
+                var imgSrc = string.Format("data:image/jpg;base64,{0}", base64);
+            }
+            <img src="@imgSrc" class="img-thumbnail" />
+        </td>
+        <td>@item.id) @item.Question</td>
+    </tr>
+    <tr>
+        <td>
+            <input id="1" type="radio" name="@item.id" class="custom-radio" value="@item.Option1" />@item.Option1
+        </td>
+        <td>    <input id="2" type="radio" name="@item.id" class="custom-radio" value="@item.Option2" />@item.Option2</td>
+    </tr>
+    <tr>
+        <td>  <input id="3" type="radio" name="@item.id" class="custom-radio" value="@item.Option3" />@item.Option3</td>
+        <td>
+            <input id="4" type="radio" name="@item.id" class="custom-radio" value="@item.Option4" />@item.Option4
+           
+       
+        </td>
+    </tr>
+    <tr><td>
+       <label name=@item.Answer style="display:none" id="cc"></label>
+    <label name="@item.id" class="rb" style="display:none; color:forestgreen; font:bold;" id="rb"> Ans) 
+        @{ var Ans = "";}
+        @if (@item.Answer == 1)
+        {@(Ans = @item.Option1)
+        }
+        else if (@item.Answer == 2)
+        {@(Ans = @item.Option2)
+        }
+        else if (@item.Answer == 3)
+        {@(Ans = @item.Option3)
+        }
+        else
+        {@(Ans = @item.Option4)
+        }
+        
+    </label>
+</td></tr>
+</table>
+
+} <button id="but1" type="button" value="Submit" class="btn-success" onclick="displayresults();">Submit</button>
+<div><label id="lbluseranswer"></label></div>
+<div><label id="lblcorrectanswer"></label></div>
+@*}
+        else
+        {
+            <div class="backgroundWhite"> No questions answers avaliable...</div>
+        }
+    </form>*@
+@section Scripts{
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    @* <script src="~/js/Quiz.js"></script>*@
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#but1").click(function () {
+            //var x = document.getElementById("rb");
+            //if (x.style.display === "none") {
+            //    x.style.display = "block";
+            //}
+            $(".rb").show();
+            $(".rb").attr("disabled", true);
+        });
+    });
+
+    function displayresults() {
+        document.getElementById("lbluseranswer").innerHTML = "";
+        var x = document.getElementById("rb");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        }
+        var result = document.getElementsByTagName("input");
+        
+        var a = document.getElementById("Answer");
+        for (i = 0; i < result.length; i++) {
+            if (result[i].type == "radio") {
+                
+                    if (result[i].checked) {
+                        document.getElementById("lbluseranswer").innerHTML += "Q " + result[i].name + ")" + " Your Selected Answer Is" + result[i].value + "<br\>"  ;
+                    @*if (result[i].value == a.value) {
+                        @(count++);
+                    }*@
+                    }
+                
+            }
+        }
+        @*document.getElementById("lblcorrectanswer").innerHTML = "Your score is " + @(count);*@
+    }
+
+    //document.getElementById("opt").onclick = function () {
+
+    //    document.getElementById("divMsg").style.display = "none";
+
+    //}
+    //function showHideDiv(ele) {
+    //    var srcElement = document.getElementById(ele);
+    //    if (srcElement != null) {
+    //        if (srcElement.style.display == "block") {
+    //            //srcElement.style.display = 'none';
+    //        }
+    //        else {
+    //            srcElement.style.display = 'block';
+    //        }
+    //        return false;
+    //    }
+    //}
+</script>
